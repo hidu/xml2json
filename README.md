@@ -66,7 +66,7 @@ but we expect `data.a` is array not string :
   }
 }
 ```
-so we can use `-jsonschema` option:
+so we can use `-jsonschema` [b-schema.json](test/b-schema.json) option:
 ```
 xml2json -xml b.xml -jsonschema b-schema.json
 ```
