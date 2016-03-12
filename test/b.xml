@@ -1,13 +1,5 @@
-<datas>
-<item>
- <a>hello</a>
- <b>world</b>
- <b>oooo</b>
-</item>
-<item>
-  <a>hello1</a>
-  <b>world1</b>
-  <b>oooo1</b>
-</item>
-
-</datas>
+<data>
+	<a>va0</a>
+	<b>bv0</b>
+	<b>bv1</b>
+</data>

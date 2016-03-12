@@ -1,25 +1,32 @@
 {
-	"type":"object",
-	"properties":{
-		"datas":{
-			"type":"object",
-			"properties":{
-				"item":{
-					"type":"array",
-					"items":{
-						"type":"object",
-						"properties":{
-							"a":{
-								"type":"array",
-								"items":{
-									"type":"string"
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-		
-	}
+  "description": "",
+  "properties": {
+    "data": {
+      "description": "",
+      "properties": {
+        "a": {
+          "description": "",
+          "items": {
+            "description": "",
+            "type": "string"
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "b": {
+          "description": "",
+          "items": {
+            "description": "",
+            "type": "string"
+          },
+          "minItems": 0,
+          "type": "array"
+        }
+      },
+      "required": [],
+      "type": "object"
+    }
+  },
+  "required": [],
+  "type": "object"
 }
