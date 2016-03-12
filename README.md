@@ -7,13 +7,28 @@ go get -u github.com/hidu/xml2json
 
 ## 2.Useage
 
+```
+options of xml2json:
+  -jsonschema string
+        json schema file path
+  -out string
+        json output file path
+  -port uint
+        run as http server,addr port eg 8080
+  -xml string
+        xml file path
+```
+
 ### 2.1 basic
 ```
 xml2json -xml b.xml
 
-xml2json -xml b.xml -out b.json
 cat b.xml|xml2json
+```
 
+output json content to file:
+```
+xml2json -xml b.xml -out b.json
 ```
 ### 2.2 fix json with jsonschema
 the [b.xml](test/b.xml) content:
@@ -76,7 +91,7 @@ params:
 
 #### 2.3.3 POST /jsonfix
 fix json with json schema  
-params:
+params:  
 `json`: json string,required,not empty  
 `json_schema`:  the jsons-chema to fix output josn,required,not emtpy
 
